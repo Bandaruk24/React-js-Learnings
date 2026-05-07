@@ -19,36 +19,36 @@ export default function About(props) {
             <div className="accordion-item" style={myStyle}>
                 <h2 className="accordion-header">
                 <button className="accordion-button" type="button"  style={myStyle} data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Accordion Item #1
+                    What is TextUtility?
                 </button>
                 </h2>
                 <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
                 <div className="accordion-body" style={myStyle}>
-                    <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    TextUtility is a simple and efficient tool designed to help you manipulate and analyze text quickly. Whether you want to convert text to uppercase or lowercase, remove extra spaces, or copy formatted content, this app provides a fast and user-friendly way to handle everyday text operations without any hassle.
                 </div>
                 </div>
             </div>
             <div className="accordion-item" style={myStyle}>
                 <h2 className="accordion-header">
                 <button className="accordion-button collapsed"  style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Accordion Item #2
+                    Why Use TextUtility?
                 </button>
                 </h2>
                 <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body" style={myStyle}>
-                    <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    TextUtility saves time by automating common text tasks that would otherwise be repetitive and manual. It is built with a clean interface, making it easy for anyone  from students to professionals - to quickly edit and transform text. No installation or complex setup is required - just type or paste your text and start using the features instantly.
                 </div>
                 </div>
             </div>
             <div className="accordion-item" style={myStyle}>
                 <h2 className="accordion-header">
                 <button className="accordion-button collapsed"  style={myStyle} type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                    Accordion Item #3
+                    Features of TextUtility
                 </button>
                 </h2>
                 <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div className="accordion-body">
-                    <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    TextUtility offers a range of helpful features including text case conversion (uppercase/lowercase), removing extra spaces, copying text with a single click, and real-time text preview. The app is lightweight, fast, and responsive, ensuring a smooth experience across devices.
                 </div>
                 </div>
             </div>
